@@ -1,18 +1,16 @@
 /* The @import rule below imports the Playfair Display and Source Sans Pro fonts into the stylesheet. You don't have to edit this line.*/
-@import url("https://fonts.googleapis.com/css2?family=Playfair+Display&family=Titillium+Web&family=Source+Sans+Pro:wght@400&display=swap&family=Kalam&family=BioRhyme+Expanded");
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display&family=Source+Sans+Pro:wght@400");
 
 body {
   color: #003049;
-  font-family: Kalam, Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Source Sans Pro", Tahoma, Geneva, Verdana, sans-serif;
   padding: 40px;
   background-color: #eae2b7;
 }
 
 /* Set the font family for any h1, h2, or h3 heading */
-h1,
-h2,
-h3 {
-  font-family: "BioRhyme Expanded", Times, serif;
+:is(h1, h2, h3){
+  font-family: "Playfair Display", Times, serif;
 }
 
 #title, nav {
@@ -20,8 +18,7 @@ h3 {
 }
 
 nav a {
-    font-family: "Titillium Web", 'Times New Roman', Times, serif;
-    margin: 30px;
+    padding: 20px;
 }
 
 article {
@@ -52,8 +49,6 @@ img {
 hr {
   border: 1px solid black;
 }
-
-/* Add your solution below */
 
 .image-circle {
     border-radius: 50%;
